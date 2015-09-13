@@ -39,6 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chain\AdapterAdapter.cs" />
+    <Compile Include="Chain\AdapterConsumer.cs" />
+    <Compile Include="Chain\IAdapter.cs" />
+    <Compile Include="Chain\IConsumer.cs" />
+    <Compile Include="Chain\IProducer.cs" />
+    <Compile Include="Chain\ProducerAdapter.cs" />
+    <Compile Include="Chain\ProducerConsumer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
